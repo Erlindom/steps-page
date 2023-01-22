@@ -1,0 +1,25 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--Magnolia);
+}
+
+.target {
+    background: var(--White);
+    width: 60%;
+    height: 570px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.aside {
+    background-image: url("../../images/bg-sidebar-desktop.svg");
+    background-repeat: no-repeat;
+    width: 274px;
+    height: 568px;
+    padding: 40px 0 0 30px;
+    box-sizing: border-box;
+}
+
