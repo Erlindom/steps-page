@@ -14,6 +14,38 @@ function Target() {
             <Number number="4" step="step 4" info="summary" />
           </div>
         </aside>
+
+        <div className="visual-step">
+          <div>
+            <h1 className="title">Personal info</h1>
+            <p className="text">
+              Please provide your name, email address, and phone number.
+            </p>
+          </div>
+          <form action="" className="form">
+            <div className="form-input">
+              <label className="label" htmlFor="">
+                Name
+              </label>
+              <input className="input" type="text" />
+            </div>
+            <div className="form-input">
+              <label className="label" htmlFor="">
+                Email Address
+              </label>
+              <input className="input" type="email" />
+            </div>
+            <div className="form-input">
+              <label className="label" htmlFor="">
+                Phone Number
+              </label>
+              <input className="input" type="text" />
+            </div>
+          </form>
+          <div className="btn-content">
+            <button className="btn">Next Step</button>
+          </div>
+        </div>
       </div>
     </div>
   );

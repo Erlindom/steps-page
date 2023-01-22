@@ -7,17 +7,18 @@
 }
 
 .target {
+    display: flex;
     background: var(--White);
-    width: 60%;
-    height: 570px;
+    width: 900px;
     border-radius: 15px;
     padding: 15px;
+    gap: 40px;
 }
 
 .aside {
     background-image: url("../../images/bg-sidebar-desktop.svg");
     background-repeat: no-repeat;
-    width: 274px;
+    width: 320px;
     height: 568px;
     padding: 40px 0 0 30px;
     box-sizing: border-box;
@@ -27,4 +28,70 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+.visual-step {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 40px 0 0 0;
+    color: var(--Marine-blue);
+}
+
+.title {
+    margin: 0;
+}
+
+.text {
+    color: var(--Cool-gray);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 30px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    padding-left: 15px;
+    height: 43px;
+    border-radius: 10px;
+    border: 1px solid var(--Light-gray);
+    outline: none;
+    font-size: 16px;
+    color: var(--Marine-blue);
+    font-weight: 700;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+input[type=text]:focus {
+    border: 1px solid var(--Purplish-blue);
+}
+
+.btn-content {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    color: var(--White);
+    background: var(--Marine-blue);
+    padding: 15px 27px 15px 27px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #174a8b;
 }
