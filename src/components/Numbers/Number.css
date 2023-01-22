@@ -1,0 +1,33 @@
+.steps {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    gap: 15px;
+    color: var(--White);
+    cursor: pointer;
+    user-select: none;
+}
+
+.number {
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--White);
+    border: 1px solid var(--White);
+}
+
+.text-step {
+    margin: 0 0 4px 0;
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--Pastel-blue);
+}
+
+.text-info {
+    margin: 0;
+}

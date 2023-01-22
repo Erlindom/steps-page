@@ -23,3 +23,8 @@
     box-sizing: border-box;
 }
 
+.column-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
